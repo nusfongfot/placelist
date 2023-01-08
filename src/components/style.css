@@ -1,0 +1,102 @@
+.side-bar {
+  width: 90px;
+  background: #FFFFFF;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 100px;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.img-location {
+  width: 45px;
+  height: 45px;
+  top: 150px;
+}
+
+.logo-img {
+  width: 45px;
+  height: 45px;
+  top: 30px;
+}
+
+.vector1 {
+  top: 100px;
+  border-bottom: 1px solid #E5E5E5;
+  width: 90%;
+  height: 20px;
+}
+
+.title {
+  top: 195px;
+}
+
+.vector2 {
+  top: 220px;
+  border-bottom: 1px solid #E5E5E5;
+  width: 90%;
+  height: 20px;
+}
+.img-show {
+  width: 579px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.bg-infomation {
+  background: #C4D3E9;
+  width: 87vw;
+}
+
+.title-img {
+  align-self: flex-start;
+}
+
+.active {
+  background-color: #134B8A;
+  border: none;
+  outline: none;
+  width: 168px;
+  height: 34px;
+  border-radius: 30px;
+  color: #fff;
+}
+
+#btn-info {
+  border: none;
+  outline: #FFFFFF;
+  width: 158px;
+  height: 34px;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .img-card {
+    height: 200px !important;    
+  }
+  .card-info {
+    height: 600px !important;
+  }
+  .card-item {
+    width: 75vw !important;
+  }
+  .bg-infomation{
+    background-color: transparent;
+  }
+  .searchInput {
+    width: 90vw;
+    overflow-x: hidden;
+  }
+
+  .select {
+    width: 90vw;   
+  }
+
+  .header {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .back-btn {
+    margin-top: 5px !important;
+    margin-left: 5px !important;
+  } 
+}
