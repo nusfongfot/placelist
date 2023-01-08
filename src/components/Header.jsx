@@ -5,22 +5,21 @@ import './style.css'
 
 function Header() {
   return (
-    <div className='container-fluid d-flex flex-column flex-md-row justify-content-around overflow-hidden position-sticky top-0 header'>
-      <div className='row'>
-        <div className='col-12 col-lg-3 d-flex align-items-center flex-md-row'>
-          <Typography
-            variant='h5'
-            className='text-place'
-          >
-            Place List
-          </Typography>
+    <div className='container overflow-hidden position-sticky top-0 header'>
+       <div className="row">
+        <div className="col-lg-6 col-12 d-flex flex-md-row align-items-center justify-content-start">
+           <Typography
+             variant='h5'
+             className='text-place'
+           >
+             Place List
+           </Typography>
         </div>
-
-        <div className='col-12 col-lg-9 d-flex flex-column flex-md-row'>
+        <div className="col-lg-6 col-12 d-flex flex-column flex-md-row align-items-center justify-content-end">
           <Categories />
           <SearchForm />
         </div>
-      </div>
+       </div>
     </div>
   )
 }

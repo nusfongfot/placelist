@@ -70,6 +70,10 @@
   border-radius: 30px;
 }
 
+.container {
+ max-width: 1600px !important;
+}
+
 @media screen and (max-width: 576px) {
   .img-card {
     height: 200px !important;    
@@ -84,7 +88,7 @@
     background-color: transparent;
   }
   .searchInput {
-    width: 90vw;
+    width: 93vw;
     overflow-x: hidden;
   }
 
